@@ -1,5 +1,6 @@
 # Dependency Semantic Analysis System in Python
-Repository Link:
+Repository Link: https://github.com/snehallate/Dependency-Semantic-Analysis-System-in-Python
+
 A GUI-based Artificial Intelligence project that performs **syntactic dependency parsing** and **semantic analysis** on Python code snippets using **Natural Language Processing (NLP)** techniques with the help of the spaCy library.
 
 
