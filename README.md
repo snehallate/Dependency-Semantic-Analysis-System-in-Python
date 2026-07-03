@@ -1,10 +1,8 @@
 # Dependency Semantic Analysis System in Python
 
-# Python Code Dependency and Semantic Analysis System
-
 A GUI-based Artificial Intelligence project that performs **syntactic dependency parsing** and **semantic analysis** on Python code snippets using **Natural Language Processing (NLP)** techniques with the help of the spaCy library.
 
----
+
 
 ## 📌 Project Overview
 
@@ -20,7 +18,7 @@ The system uses **spaCy NLP models** along with a **Tkinter GUI** to provide an 
 
 This project demonstrates how NLP techniques can be adapted for programming language analysis.
 
----
+
 
 ## 🚀 Features
 
@@ -56,7 +54,7 @@ Displays:
 * POS Tag
 * Token Type
 
----
+
 
 ## 🧠 Technologies Used
 
@@ -67,7 +65,7 @@ Displays:
 | Tkinter        | GUI Development                        |
 | NLP Techniques | Dependency Parsing & Semantic Analysis |
 
----
+
 
 
 
@@ -80,7 +78,7 @@ git clone https://github.com/your-username/python-code-dependency-analyzer.git
 cd python-code-dependency-analyzer
 ```
 
----
+
 
 ### Step 2: Install Required Libraries
 
@@ -88,7 +86,7 @@ cd python-code-dependency-analyzer
 pip install -r requirements.txt
 ```
 
----
+
 
 ### Step 3: Download spaCy Model
 
@@ -96,7 +94,7 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
----
+
 
 ## ▶️ Run the Project
 
@@ -104,7 +102,7 @@ python -m spacy download en_core_web_sm
 python main.py
 ```
 
----
+
 
 ## 🖥️ GUI Interface
 
@@ -115,7 +113,7 @@ The application provides:
 * Perform Semantic Analysis button
 * Output display sections
 
----
+
 
 ## 📊 Sample Input
 
@@ -127,7 +125,7 @@ def add(a, b):
 x = add(5, 10)
 ```
 
----
+
 
 ## 📈 Sample Syntax Output
 
@@ -136,7 +134,7 @@ x = add(5, 10)
 | add    | add  | ROOT       | VERB | Keyword    |
 | result | add  | dobj       | NOUN | Identifier |
 
----
+
 
 ## 📌 Methodology
 
@@ -178,7 +176,7 @@ Extracts:
 * Noun chunks
 * Semantic relationships
 
----
+
 
 ## 🧩 Algorithms Used
 
@@ -194,23 +192,35 @@ Extracts meaningful entities from code comments and strings.
 
 Uses spaCy linguistic processing pipeline.
 
----
 
-## 📸 Screenshots
 
-### Main Interface
+## Output
 
-(Add Screenshot Here)
+# Main Application Interface
+<img width="721" height="127" alt="image" src="https://github.com/user-attachments/assets/ba9be8e4-9a74-4b98-bf86-7188b748024f" />
 
-### Syntax Analysis Output
+# Syntactic Analysis Output
+<img width="768" height="270" alt="image" src="https://github.com/user-attachments/assets/c32f690e-06f3-419f-ac4e-3ee183b6e085" />
 
-(Add Screenshot Here)
 
-### Semantic Analysis Output
+# Semantic Analysis Output
+<img width="760" height="306" alt="image" src="https://github.com/user-attachments/assets/3fbaf41a-fb37-4c0b-918c-1bb3d6300759" />
 
-(Add Screenshot Here)
 
----
+# Testing screenshots:
+# Test Case 1: Simple Python Function
+<img width="710" height="534" alt="image" src="https://github.com/user-attachments/assets/0209d9b9-666c-477b-aa15-105dfd26c73d" />
+
+
+
+Test Case 2: Conditional Statements
+<img width="688" height="350" alt="image" src="https://github.com/user-attachments/assets/1a4f0d31-9496-49d0-b9e9-d14e0f52afc1" />
+<img width="780" height="541" alt="image" src="https://github.com/user-attachments/assets/32a2907a-3b85-4b73-b5a3-553d911c6adf" />
+
+
+# Test Case 3: Complex Code Structure
+<img width="780" height="689" alt="image" src="https://github.com/user-attachments/assets/d7edb127-af61-4bcf-af1f-e3ae103766c4" />
+
 
 ## 🧪 Testing
 
@@ -226,7 +236,7 @@ The project was tested using:
 * Structured output inspection
 * Dependency relationship validation
 
----
+
 
 ## 📌 Observations
 
@@ -235,7 +245,7 @@ The project was tested using:
 * GUI improves usability and interpretation
 * Works effectively for educational purposes
 
----
+
 
 ## ⚠️ Limitations
 
@@ -243,7 +253,7 @@ The project was tested using:
 * Complex Python syntax may not always parse correctly
 * Does not perform full static code analysis
 
----
+
 
 ## 🔮 Future Improvements
 
@@ -253,7 +263,7 @@ The project was tested using:
 * Improve dependency accuracy
 * Integrate with IDEs like VS Code
 
----
+
 
 ## 🎯 Applications
 
@@ -263,28 +273,7 @@ The project was tested using:
 * Dependency analysis
 * Research in NLP for programming languages
 
----
 
-## 👨‍💻 Author
-
-**Snehal Late**
-Computer Engineering Student
-Vishwakarma University, Pune
-
----
-
-## 📜 License
-
-This project is developed for academic and educational purposes.
-
----
-
-## ⭐ Acknowledgements
-
-* spaCy NLP Library
-* Python Community
-* Vishwakarma University
-* Tkinter Documentation
 
 
 
